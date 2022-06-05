@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -9,6 +9,7 @@ namespace QuinticEquation
         static void Main(string[] args)
         {
             //wprowadzanie danych
+            //input testowy - 1,0,-2,0,1,0 powinien dać wyniki -1,0,1
             double a = 0, b, c, d, e, f;
 
             Console.WriteLine("Algorytm rozwiązuje równanie piątego stopnia (dla liczb rzeczywistych): ax^5 + bx ^ 4 + cx ^ 3 + dx ^2 + ex +f = 0,");
